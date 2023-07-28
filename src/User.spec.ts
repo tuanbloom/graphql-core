@@ -10,7 +10,7 @@ describe('User', () => {
       aud: '0e63bc17-ab0b-497b-8df9-a6d7e342ac28',
       sub: '802d0ae4-71ec-4492-a408-f624866715df',
       given_name: 'Hungry',
-      emails: ['hungry.hippo@makerx.com.au'],
+      emails: ['hungry.hippo@tuanbloom.com.au'],
       tfp: 'B2CPolicy_fake',
       scp: 'API.Scope',
       azp: '9f3f0b67-6006-4d84-818e-ae0d62ffbd9c',
@@ -20,7 +20,7 @@ describe('User', () => {
     const user = new User(b2cClaims, '')
 
     expect(user.id).toMatchInlineSnapshot(`"802d0ae4-71ec-4492-a408-f624866715df"`)
-    expect(user.email).toMatchInlineSnapshot(`"hungry.hippo@makerx.com.au"`)
+    expect(user.email).toMatchInlineSnapshot(`"hungry.hippo@tuanbloom.com.au"`)
     expect(user.name).toMatchInlineSnapshot(`"Hungry"`)
     expect(user.scopes).toMatchInlineSnapshot(`
       [

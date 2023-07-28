@@ -1,10 +1,11 @@
 {
   "name": "@tuanbloom/graphql-core",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": false,
   "description": "A set of core GraphQL utilities that MakerX uses to build GraphQL APIs",
   "author": "MakerX",
   "license": "MIT",
+  "main": "dist/index.d.ts",
   "engines": {
     "node": ">=16.0"
   },
@@ -27,7 +28,8 @@
     "lint:fix": "eslint ./src/ --ext .ts --fix",
     "check-types": "tsc --noEmit",
     "audit": "better-npm-audit audit",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@tuanbloom/node-common": "^1.0.3",

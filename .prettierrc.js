@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@makerx/prettier-config'),
+  ...require('@tuanbloom/prettier-config'),
 }

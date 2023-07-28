@@ -3,5 +3,5 @@
   "env": {
     "node": true
   },
-  "extends": ["@makerx/eslint-config"]
+  "extends": ["@tuanbloom/eslint-config"]
 }

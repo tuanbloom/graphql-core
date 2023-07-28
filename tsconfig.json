@@ -1,5 +1,5 @@
 {
-  "extends": "@makerx/ts-config",
+  "extends": "@tuanbloom/ts-config",
   "compilerOptions": {
     "outDir": "dist",
     "declaration": true

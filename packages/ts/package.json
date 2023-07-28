@@ -1,5 +1,5 @@
 {
-  "name": "@makerx/ts-config",
+  "name": "@tuanbloom/ts-config",
   "version": "1.0.1",
   "main": "tsconfig.json"
 }

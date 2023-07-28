@@ -1,5 +1,5 @@
 {
-  "name": "@makerx/eslint-config",
+  "name": "@tuanbloom/eslint-config",
   "version": "3.1.0",
   "main": "index.js",
   "devDependencies": {

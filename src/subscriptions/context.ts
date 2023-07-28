@@ -1,4 +1,4 @@
-import type { Logger } from '@makerx/node-common'
+import type { Logger } from '@tuanbloom/node-common'
 import { randomUUID } from 'crypto'
 import type { IncomingMessage } from 'http'
 import { pick } from 'lodash'
